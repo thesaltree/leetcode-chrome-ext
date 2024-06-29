@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Daily LeetCode Question",
+  "version": "1.0",
+  "description": "Get a LeetCode question every day",
+  "permissions": ["alarms", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
